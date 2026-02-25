@@ -1,6 +1,5 @@
 from pydantic import BaseModel
 from datetime import datetime
-from typing import Optional, List
 
 class IncidentCreate(BaseModel):
     title: str

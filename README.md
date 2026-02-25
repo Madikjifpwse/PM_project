@@ -52,11 +52,8 @@ Event-Driven Component: The system uses asynchronous BackgroundTasks to log acti
 Install dependencies:
 
 pip install fastapi uvicorn h3 pydantic
-Navigate to the project directory:
-
-cd CityGuard
 Start the server:
 
-python -m uvicorn main:app --reload
+python -m uvicorn CityGuard.main:app --port 8000
 Access Documentation:
 Open http://127.0.0.1:8000/docs to interact with the API via Swagger UI.
