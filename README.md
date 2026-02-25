@@ -3,6 +3,7 @@ CityGuard: Institutional Incident Management System
 CityGuard is a large-scale information system designed to manage urban infrastructure incidents (leaks, accidents, power outages) and coordinate emergency responses within a structured institutional framework.
 
 👥 Team Members & Roles
+
 Adil Izbassar (Project Manager / Analyst): Responsible for system framing, stakeholder analysis, institutional constraints definition, and ER diagram design.
 
 Madikhan Madiyar (Backend Developer): Responsible for API architecture using FastAPI, H3 spatial indexing integration, RBAC implementation, and audit logging logic.
