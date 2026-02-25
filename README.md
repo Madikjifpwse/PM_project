@@ -51,17 +51,11 @@ Event-Driven Component: The system uses asynchronous BackgroundTasks to log acti
 🚀 How to Run
 Install dependencies:
 
-Bash
-
 pip install fastapi uvicorn h3 pydantic
 Navigate to the project directory:
 
-Bash
-
 cd CityGuard
 Start the server:
-
-Bash
 
 python -m uvicorn main:app --reload
 Access Documentation:
